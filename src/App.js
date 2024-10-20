@@ -7,10 +7,16 @@ import Manhwalist from "./Manhwalist";
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Link to="Home">Home</Link>
-        <Link to="BookItem">Books</Link>
-        <Link to="Manhwalist">Manhwalist</Link>
+      <nav className="">
+        <p className="bg-red-500 hover:bg-red-700">
+          <Link to="Home">Home</Link>
+        </p>
+        <p className="bg-red-500 hover:bg-red-700">
+          <Link to="BookItem">Books</Link>
+        </p>
+        <p className="bg-red-500 hover:bg-red-700">
+          <Link to="Manhwalist">Manhwalist</Link>
+        </p>
       </nav>
       <Routes>
         <Route path="home" element={<Home />} />
