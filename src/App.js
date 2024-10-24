@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <nav className="">
         <p className="bg-red-500 hover:bg-red-700">
-          <Link to="Home">Home</Link>
+          <Link to="home">Home</Link>
         </p>
         <p className="bg-red-500 hover:bg-red-700">
           <Link to="BookItem">Books</Link>

@@ -2,8 +2,8 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
-      <div className="bg-gray-700">
+    <div className="min-h-screen bg-gray-700 text-white p-6">
+      <div className="max-w-4xl mx-auto space-y-8">
         <h3 className="text-2xl text-justify font-semibold">
           Welcome to My Favorite Books and Top 10 Manhwa – a place for book
           lovers and manhwa enthusiasts alike! Whether you're an avid reader or
@@ -11,6 +11,7 @@ function Home() {
           dedicated to sharing the magic of storytelling through both
           traditional books and the visually captivating world of manhwa.
         </h3>
+
         <h1 className="text-4xl font-bold">Why Books Matter</h1>
         <p className="text-justify">
           Books have long been cherished as windows to different worlds,
@@ -26,6 +27,7 @@ function Home() {
           contemporary fiction, I hope to offer a diverse range of
           recommendations that appeal to all kinds of readers.
         </p>
+
         <h2 className="text-4xl font-bold">What Makes a Book Stand Out?</h2>
         <p className="text-justify">
           When curating a list of favorite books, several factors come into
@@ -40,6 +42,7 @@ function Home() {
           through various genres like fantasy, science fiction, romance, and
           historical fiction.
         </p>
+
         <h2 className="text-4xl font-bold">What is Manhwa?</h2>
         <p className="text-justify">
           While books are the core of traditional storytelling, manhwa
